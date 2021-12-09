@@ -1,0 +1,90 @@
+@import url(https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Ubuntu:wght@300&display=swap);
+
+body {
+  background-color: #a0adb9;
+  font-family: "Bebas Neue", cursive;
+}
+
+.tachado {
+  text-decoration: line-through;
+  font-family: "Ubuntu", sans-serif;
+  background-color: #a3f268;
+}
+
+/* Titulo */
+
+h1 {
+  margin: 12px 0;
+  font-size: 68px;
+}
+
+/* Barra de nuevos elementos */
+
+.container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #f4f8f8;
+  width: 800px;
+  height: 700px;
+  text-align: center;
+  box-shadow: 6px 6px #788b9c;
+}
+
+.add-element {
+  margin: 12px;
+}
+
+input {
+  padding: 10px;
+  width: 70%;
+  font-size: 20px;
+  border-radius: 100px;
+  border-color: grey;
+}
+
+input:hover {
+  border-color: #788b9c;
+  box-shadow: 1px 1px #788b9c;
+}
+
+button {
+  padding: 10px 14px;
+  background-color: #19165d;
+  border: none;
+  border-radius: 4px;
+  color: #fafafa;
+  font-size: 20px;
+  border-radius: 100px;
+}
+
+button:hover {
+  background-color: #1465c0;
+  box-shadow: 2px 2px #788b9c;
+}
+
+/* Nuevos elementos */
+
+.element-list {
+  height: 550px;
+  font-size: 30px;
+}
+
+ul {
+  padding: 15px;
+}
+
+li {
+  list-style: none;
+  padding: 10px 5px;
+  background-color: #f3d4d4;
+  margin: 12px 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+  transition: 0.4s;
+}
+
+li:hover {
+  background-color: #e0e0e0;
+}
